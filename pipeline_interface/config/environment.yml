@@ -1,0 +1,22 @@
+name: cbio_ml_pl_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pandas
+  - requests
+  - scikit-learn
+  - pytest
+  - h5py
+  - rdkit
+  - zarr
+  - biopython
+  - scikit-allel
+  - pymongo
+  - openbabel
+  - r-base
+  - r-essentials
+  - rpy2
+  - pip:
+      - deepchem
+      - chembl-webresource-client
