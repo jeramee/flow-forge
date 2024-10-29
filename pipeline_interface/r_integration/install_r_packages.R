@@ -6,8 +6,8 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 
 # Install DESeq2 and edgeR using BiocManager
-# BiocManager::install("DESeq2")
-# BiocManager::install("edgeR")
+BiocManager::install("DESeq2")
+BiocManager::install("edgeR")
 BiocManager::install("limma")
 BiocManager::install("AnnotationDbi")
 BiocManager::install("GenomicRanges")
